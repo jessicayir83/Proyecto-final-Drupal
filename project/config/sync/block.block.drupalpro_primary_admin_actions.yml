@@ -1,0 +1,20 @@
+uuid: 8c722665-b886-4427-9a78-87b121efacab
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalpro
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: drupalpro_primary_admin_actions
+theme: drupalpro
+region: highlighted
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

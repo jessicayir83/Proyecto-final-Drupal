@@ -1,0 +1,20 @@
+uuid: 6675e663-24fe-41c9-8f7d-54714a1c44bb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - prueba
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: prueba_primary_admin_actions
+theme: prueba
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

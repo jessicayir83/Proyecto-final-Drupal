@@ -1,0 +1,10 @@
+{
+  "name": "prueba",
+  "private": true,
+  "scripts": {
+    "livereload": "livereload css"
+  },
+  "devDependencies": {
+    "livereload": "^0.9.3"
+  }
+}

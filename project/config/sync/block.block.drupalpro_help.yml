@@ -1,0 +1,22 @@
+uuid: 8cce9e4b-3988-44ea-a4ea-ca0edeb19dd7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupalpro
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: drupalpro_help
+theme: drupalpro
+region: content_above
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

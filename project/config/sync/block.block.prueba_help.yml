@@ -1,0 +1,22 @@
+uuid: fad615f7-6eb2-40fc-b249-34541558007b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - prueba
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: prueba_help
+theme: prueba
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
