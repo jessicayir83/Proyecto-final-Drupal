@@ -5,6 +5,7 @@ starterkit: true
 version: VERSION
 libraries:
   - drupalpro/base
+  - drupalpro/drupalpro-layout
   - drupalpro/messages
   - core/normalize
 libraries-extend:
