@@ -1,0 +1,34 @@
+card-text-left:
+  label: "card-text-left"
+  description: "Card with text in column left"
+  fields:
+    image:
+      type: "render"
+      label: "Image"
+      description: "card image left"
+      preview:
+        theme: "image"
+        uri: "/image-blogs"
+        alt: "go to posts"
+
+    title:
+      type: string
+      label: Text title
+      description: Title of card home
+      preview: "Posts"
+    subtitle:
+      type: string
+      label: Text subtitle
+      description: Title of card home
+      preview: "We have many posts about drupal, you can see them with just one click, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..."
+    link:
+      type: string
+      label: 'link'
+      description: 'link to'
+      preview: GO
+
+  libraries:
+    - card-text-left:
+        css:
+          component:
+            /css/style.css: {}

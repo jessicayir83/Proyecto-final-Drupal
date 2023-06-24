@@ -1,0 +1,37 @@
+.card {
+    background-color: #b8cdf3;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px;
+}
+  
+.card img {
+    width: 200px; 
+    margin-right: 10px;
+}
+  
+.card-content {
+    flex: 1;
+}
+  
+.card-content h2 {
+    margin-top: 0;
+}
+  
+.card-content p {
+    margin-bottom: 0;
+}
+  
+.button {
+    background-color: #565657; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #9ab9f1;
+}
