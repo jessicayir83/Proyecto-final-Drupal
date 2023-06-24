@@ -1,0 +1,22 @@
+uuid: bcf4e5d5-a12e-407f-8ae9-5e6816e93074
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalpro
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: drupalpro_messages
+theme: drupalpro
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

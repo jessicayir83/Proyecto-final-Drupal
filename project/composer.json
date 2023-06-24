@@ -18,11 +18,15 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/color_field": "^3.0",
         "drupal/core-composer-scaffold": "10.0.9",
         "drupal/core-project-message": "10.0.9",
         "drupal/core-recommended": "10.0.9",
         "drupal/default_content_deploy": "^2.0",
         "drupal/devel": "^5.1",
+        "drupal/layout_paragraphs": "^2.0",
+        "drupal/paragraphs": "^1.15",
+        "drupal/ui_patterns": "^1.5",
         "drush/drush": "^11.5"
     },
     "conflict": {
@@ -45,6 +49,9 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/sites/development.services.yml": false
             }
             
         },

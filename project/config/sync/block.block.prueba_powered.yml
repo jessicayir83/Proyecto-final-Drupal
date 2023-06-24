@@ -1,0 +1,22 @@
+uuid: bf7ccb6e-1af1-4c9e-beca-bed15c6d1164
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: prueba_powered
+theme: prueba
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

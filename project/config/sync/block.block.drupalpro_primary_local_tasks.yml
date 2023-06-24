@@ -1,0 +1,22 @@
+uuid: ca9c3b69-8356-4401-b0d6-0abb68e1db3a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalpro
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupalpro_primary_local_tasks
+theme: drupalpro
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 22b00016-2b19-4880-9c60-546bebe68182
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.landing_page_post
+  module:
+    - system
+    - views
+  theme:
+    - drupalpro
+id: drupalpro_views_block__landing_page_post_block_1
+theme: drupalpro
+region: sidebar
+weight: -6
+provider: null
+plugin: 'views_block:landing_page_post-block_1'
+settings:
+  id: 'views_block:landing_page_post-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/post*'

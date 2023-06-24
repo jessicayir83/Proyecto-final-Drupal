@@ -1,0 +1,22 @@
+uuid: d82e18d5-0bcb-49ff-8283-8b7c25777fa9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - prueba
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: prueba_secondary_local_tasks
+theme: prueba
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
