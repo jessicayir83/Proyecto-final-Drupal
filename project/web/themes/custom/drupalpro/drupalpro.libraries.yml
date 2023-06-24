@@ -46,6 +46,10 @@ base:
         weight: -10
       css/components/ui-dialog.css:
         weight: -10
+drupalpro-layout:
+  css:
+    layout:
+      css/layout.css: {}
 dialog:
   version: VERSION
   css:
