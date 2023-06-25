@@ -1,20 +1,28 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/homepage?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/node\/16?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/type\/node\/page"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/type\/node\/page"
         },
-        "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/user\/1?_format=hal_json"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/field_components": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
             }
         ]
     },
@@ -41,44 +49,78 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-06-18T05:24:40+00:00",
+            "value": "2023-06-25T19:28:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "12e50ddb-7c3b-44a0-ba16-9332d0bc4136"
+                        "value": "ccb6f615-27d3-4b9c-ae0f-3b7543ced789"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-vpm9gj9i9ki.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "3adf9fdc-fe09-414c-9626-3b795fa52a5a"
+                        "value": "a165d927-dd68-474f-9f55-4176e12b2275"
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/relation\/node\/page\/field_components": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/type\/paragraph\/ctr"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5b2205f3-1cf1-4623-8db5-6d358749bc44"
+                    }
+                ],
+                "target_revision_id": "13"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us100.gitpod.io\/rest\/type\/paragraph\/ctc"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a4c18088-9f41-4086-886b-d8ef24806a46"
+                    }
+                ],
+                "target_revision_id": "14"
             }
         ]
     },
@@ -103,7 +145,7 @@
     ],
     "changed": [
         {
-            "value": "2023-06-18T05:24:40+00:00",
+            "value": "2023-06-25T19:28:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -133,8 +175,8 @@
     ],
     "path": [
         {
-            "alias": "\/homepage",
-            "pid": 3,
+            "alias": null,
+            "pid": null,
             "langcode": "en",
             "lang": "en"
         }
