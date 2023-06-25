@@ -1,0 +1,10 @@
+uuid: 9c199d72-b179-49d8-84df-6eeea9224661
+langcode: en
+status: true
+dependencies: {  }
+id: ctr
+label: ctr
+icon_uuid: null
+icon_default: null
+description: 'Paragraph para texto a la derecha'
+behavior_plugins: {  }

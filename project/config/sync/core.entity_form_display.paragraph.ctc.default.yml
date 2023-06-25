@@ -1,0 +1,45 @@
+uuid: 39577354-a285-4802-8a98-27ce1054843e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ctc.field_content_landing
+    - field.field.paragraph.ctc.field_image_landing
+    - field.field.paragraph.ctc.field_title_landing
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ctc
+  module:
+    - image
+    - text
+id: paragraph.ctc.default
+targetEntityType: paragraph
+bundle: ctc
+mode: default
+content:
+  field_content_landing:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_landing:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title_landing:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

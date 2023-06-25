@@ -1,0 +1,52 @@
+uuid: d61c29c0-52cf-44c8-9509-115beabe6737
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ctr.field_content
+    - field.field.paragraph.ctr.field_image
+    - field.field.paragraph.ctr.field_link
+    - field.field.paragraph.ctr.field_title
+    - paragraphs.paragraphs_type.ctr
+  module:
+    - image
+id: paragraph.ctr.default
+targetEntityType: paragraph
+bundle: ctr
+mode: default
+content:
+  field_content:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
