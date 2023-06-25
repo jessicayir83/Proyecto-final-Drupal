@@ -1,0 +1,23 @@
+footer:
+  label: "footer"
+  description: "This is pattern of footer the website"
+  fields:
+    copy:
+      type: "string"
+      label: "Image"
+      description: "copyright"
+      preview: "Drupal blogs. copyright"
+    footer-link:
+      type: string
+      label: 'link'
+      description: 'link to'
+      preview: Home
+  libraries:
+    - footer:
+        css:
+          component:
+            /css/style.css: {}
+
+    
+
+

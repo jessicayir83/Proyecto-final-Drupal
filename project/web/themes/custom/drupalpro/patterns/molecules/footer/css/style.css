@@ -1,0 +1,57 @@
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+ul.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul.footer-links li {
+    margin-right: 10px;
+}
+
+ul.footer-links li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para el diseño responsive */
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul.footer-links {
+        margin-top: 10px;
+    }
+
+    ul.footer-links li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}

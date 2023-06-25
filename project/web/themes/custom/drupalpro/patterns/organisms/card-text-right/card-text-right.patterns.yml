@@ -10,7 +10,6 @@ card-text-right:
         theme: "image"
         uri: "/image-blogs"
         alt: "go to blogs"
-
     title:
       type: string
       label: Text title
