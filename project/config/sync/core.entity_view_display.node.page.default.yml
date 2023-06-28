@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.basic
     - field.field.node.page.body
     - field.field.node.page.field_card_center
+    - field.field.node.page.field_card_home
     - field.field.node.page.field_card_text_left
     - field.field.node.page.field_card_text_right
     - field.field.node.page.field_footer
@@ -114,6 +115,23 @@ third_party_settings:
                   link: ''
                 third_party_settings: {  }
             weight: 4
+            additional: {  }
+          5fe21587-f05b-4066-ab26-28fc3af68112:
+            uuid: 5fe21587-f05b-4066-ab26-28fc3af68112
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_card_home'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 5
             additional: {  }
         third_party_settings: {  }
       -
@@ -346,6 +364,15 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_card_home:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_card_text_left:
     type: entity_reference_revisions_entity_view

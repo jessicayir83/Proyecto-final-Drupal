@@ -1,0 +1,23 @@
+uuid: 654d72d3-d135-4ec0-9b99-0d9bc6607839
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_home.field_text_c
+    - paragraphs.paragraphs_type.card_home
+id: paragraph.card_home.default
+targetEntityType: paragraph
+bundle: card_home
+mode: default
+content:
+  field_text_c:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

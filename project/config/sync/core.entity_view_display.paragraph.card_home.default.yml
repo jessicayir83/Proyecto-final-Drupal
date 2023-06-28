@@ -1,0 +1,21 @@
+uuid: 9f23c788-b58f-4f57-bb9f-ea5f610104eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_home.field_text_c
+    - paragraphs.paragraphs_type.card_home
+id: paragraph.card_home.default
+targetEntityType: paragraph
+bundle: card_home
+mode: default
+content:
+  field_text_c:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
