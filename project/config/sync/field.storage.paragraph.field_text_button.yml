@@ -1,16 +1,17 @@
-uuid: cab630a7-44f1-4ad6-a1bc-b37e340cabb3
+uuid: 4d2fdb76-5f10-493b-a6c2-2aba62890ad1
 langcode: en
 status: true
 dependencies:
   module:
-    - media
     - paragraphs
-id: paragraph.field_image_landing
-field_name: field_image_landing
+id: paragraph.field_text_button
+field_name: field_text_button
 entity_type: paragraph
-type: entity_reference
+type: string
 settings:
-  target_type: media
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

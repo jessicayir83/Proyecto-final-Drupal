@@ -1,12 +1,12 @@
-uuid: cab630a7-44f1-4ad6-a1bc-b37e340cabb3
+uuid: 691acb18-2acb-481c-a67d-117f04cfbb03
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - paragraphs
-id: paragraph.field_image_landing
-field_name: field_image_landing
+id: paragraph.field_image_f
+field_name: field_image_f
 entity_type: paragraph
 type: entity_reference
 settings:

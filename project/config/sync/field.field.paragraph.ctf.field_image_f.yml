@@ -1,16 +1,18 @@
-uuid: 67cece52-4590-4524-903c-17bd2656de1f
+uuid: be9292f9-e228-464e-bb47-b32e41167bd8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image_landing
+    - field.storage.paragraph.field_image_f
+    - media.type.image
+    - media.type.image_post
     - media.type.images_for_titles
-    - paragraphs.paragraphs_type.ctc
-id: paragraph.ctc.field_image_landing
-field_name: field_image_landing
+    - paragraphs.paragraphs_type.ctf
+id: paragraph.ctf.field_image_f
+field_name: field_image_f
 entity_type: paragraph
-bundle: ctc
-label: image-landing
+bundle: ctf
+label: 'image f'
 description: ''
 required: false
 translatable: false
@@ -20,10 +22,12 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
+      image: image
+      image_post: image_post
       images_for_titles: images_for_titles
     sort:
       field: _none
       direction: ASC
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: image_post
 field_type: entity_reference

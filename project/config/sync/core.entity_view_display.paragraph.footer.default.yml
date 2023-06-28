@@ -1,0 +1,21 @@
+uuid: c291867f-e35a-427b-9398-b7803a4a1790
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.footer.field_title_footer
+    - paragraphs.paragraphs_type.footer
+id: paragraph.footer.default
+targetEntityType: paragraph
+bundle: footer
+mode: default
+content:
+  field_title_footer:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

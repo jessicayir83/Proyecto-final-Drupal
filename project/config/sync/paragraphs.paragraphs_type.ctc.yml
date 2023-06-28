@@ -6,5 +6,5 @@ id: ctc
 label: ctc
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'card center'
 behavior_plugins: {  }

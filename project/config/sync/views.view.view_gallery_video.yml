@@ -37,7 +37,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Title
+          label: ''
           exclude: false
           alter:
             alter_text: false
@@ -68,7 +68,7 @@ display:
             html: false
           element_type: ''
           element_class: ''
-          element_label_type: ''
+          element_label_type: h3
           element_label_class: ''
           element_label_colon: true
           element_wrapper_type: ''
@@ -454,8 +454,10 @@ display:
         groups:
           1: AND
       defaults:
+        use_ajax: false
         filters: false
         filter_groups: false
+      use_ajax: true
       display_extenders: {  }
     cache_metadata:
       max-age: -1

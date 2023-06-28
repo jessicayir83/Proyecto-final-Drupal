@@ -1,0 +1,13 @@
+uuid: caddfa82-9659-4278-914e-dbee0c70e4a7
+langcode: en
+status: true
+dependencies: {  }
+id: images_for_titles
+label: 'Images for titles'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_2
+field_map: {  }

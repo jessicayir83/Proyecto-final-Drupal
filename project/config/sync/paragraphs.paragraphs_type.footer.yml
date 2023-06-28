@@ -1,10 +1,10 @@
-uuid: 9c199d72-b179-49d8-84df-6eeea9224661
+uuid: 59869eb8-1220-4734-800c-ac0a8b6077fa
 langcode: en
 status: true
 dependencies: {  }
-id: ctr
-label: ctr
+id: footer
+label: footer
 icon_uuid: null
 icon_default: null
-description: 'card text right'
+description: ''
 behavior_plugins: {  }

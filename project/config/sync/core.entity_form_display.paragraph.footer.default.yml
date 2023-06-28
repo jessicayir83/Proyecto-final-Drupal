@@ -1,0 +1,23 @@
+uuid: 2ee24fa0-435a-40f1-8d1d-756fdc1fc0d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.footer.field_title_footer
+    - paragraphs.paragraphs_type.footer
+id: paragraph.footer.default
+targetEntityType: paragraph
+bundle: footer
+mode: default
+content:
+  field_title_footer:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
