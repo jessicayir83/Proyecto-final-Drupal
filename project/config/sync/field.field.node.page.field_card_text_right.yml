@@ -1,0 +1,40 @@
+uuid: 11786a91-ecc1-45c3-a543-92fce616a367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_text_right
+    - node.type.page
+    - paragraphs.paragraphs_type.ctr
+  module:
+    - entity_reference_revisions
+id: node.page.field_card_text_right
+field_name: field_card_text_right
+entity_type: node
+bundle: page
+label: card-text-right
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ctr: ctr
+    negate: 0
+    target_bundles_drag_drop:
+      ctc:
+        weight: 5
+        enabled: false
+      ctf:
+        weight: 6
+        enabled: false
+      ctr:
+        weight: 7
+        enabled: true
+      footer:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,43 @@
+uuid: dbf7b27a-c3ac-4c99-a5bc-bc94b70721eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_card_home
+    - node.type.page
+    - paragraphs.paragraphs_type.card_home
+  module:
+    - entity_reference_revisions
+id: node.page.field_card_home
+field_name: field_card_home
+entity_type: node
+bundle: page
+label: card-home
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      card_home: card_home
+    negate: 0
+    target_bundles_drag_drop:
+      card_home:
+        weight: 6
+        enabled: true
+      ctc:
+        weight: 7
+        enabled: false
+      ctf:
+        weight: 8
+        enabled: false
+      ctr:
+        weight: 9
+        enabled: false
+      footer:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions
