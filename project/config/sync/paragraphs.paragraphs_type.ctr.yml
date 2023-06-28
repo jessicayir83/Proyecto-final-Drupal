@@ -6,5 +6,5 @@ id: ctr
 label: ctr
 icon_uuid: null
 icon_default: null
-description: 'Paragraph para texto a la derecha'
+description: 'card text right'
 behavior_plugins: {  }

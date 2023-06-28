@@ -49,9 +49,11 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-     image: paragraph.field_image_landing.0.value.Image-landing,
-     title: paragraph.field_title_landing.0.value.title-landing,
-     subtitle: paragraph.field_content_landing.0.value.content-landing,
+      {{ pattern('card-center',{
+        image: paragraph.field_image_landing.0.value,
+        title: paragraph.field_title_landing.0.value,
+        subtitle: paragraph.field_content_landing.0.value,
+      })  }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

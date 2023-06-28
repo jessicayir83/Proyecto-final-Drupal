@@ -11,7 +11,7 @@ id: paragraph.ctc.field_content_landing
 field_name: field_content_landing
 entity_type: paragraph
 bundle: ctc
-label: cONTENT-LANDING
+label: content-landing
 description: ''
 required: false
 translatable: false
