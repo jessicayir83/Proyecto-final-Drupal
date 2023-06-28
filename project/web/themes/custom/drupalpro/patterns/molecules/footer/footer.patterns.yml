@@ -2,16 +2,11 @@ footer:
   label: "footer"
   description: "This is pattern of footer the website"
   fields:
-    copy:
-      type: "string"
-      label: "Image"
-      description: "copyright"
-      preview: "Drupal blogs. copyright"
-    footer-link:
+    title:
       type: string
-      label: 'link'
-      description: 'link to'
-      preview: Home
+      label: 'Title'
+      description: 'Title of footer with paragraphs'
+      preview: Blogs of Drupal. Copyright
   libraries:
     - footer:
         css:

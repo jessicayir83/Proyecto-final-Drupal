@@ -49,10 +49,8 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ pattern('card-center',{
-        image: paragraph.field_image_landing.0.value,
-        title: paragraph.field_title_landing.0.value,
-        subtitle: paragraph.field_content_landing.0.value,
+      {{ pattern('footer',{
+        title: paragraph.field_title_footer.0.value,
       })  }}
     {% endblock %}
   </div>
