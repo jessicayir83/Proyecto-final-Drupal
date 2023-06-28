@@ -5,7 +5,10 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.node.page.body
-    - field.field.node.page.field_components
+    - field.field.node.page.field_card_center
+    - field.field.node.page.field_card_text_left
+    - field.field.node.page.field_card_text_right
+    - field.field.node.page.field_footer
     - field.field.node.page.layout_builder__layout
     - node.type.page
     - views.view.full_post
@@ -44,11 +47,11 @@ third_party_settings:
               block_serialized: null
             weight: 0
             additional: {  }
-          3a2deb22-3006-4a04-a453-a87573305763:
-            uuid: 3a2deb22-3006-4a04-a453-a87573305763
+          870ff1ca-7515-42ed-bbe4-f5b2813e88b8:
+            uuid: 870ff1ca-7515-42ed-bbe4-f5b2813e88b8
             region: content
             configuration:
-              id: 'field_block:node:page:field_components'
+              id: 'field_block:node:page:field_card_text_right'
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
@@ -60,6 +63,57 @@ third_party_settings:
                   link: ''
                 third_party_settings: {  }
             weight: 1
+            additional: {  }
+          658b41e4-7b0b-4149-9995-b01588056de6:
+            uuid: 658b41e4-7b0b-4149-9995-b01588056de6
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_card_text_left'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          1abe3aaa-db03-4aac-8dc4-54ded462ba0d:
+            uuid: 1abe3aaa-db03-4aac-8dc4-54ded462ba0d
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_card_center'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          60bb7bae-0b54-4c0e-bb7b-f4b367e27b50:
+            uuid: 60bb7bae-0b54-4c0e-bb7b-f4b367e27b50
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_footer'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 4
             additional: {  }
         third_party_settings: {  }
       -
@@ -284,7 +338,25 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-  field_components:
+  field_card_center:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_card_text_left:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_card_text_right:
     type: entity_reference_revisions_entity_view
     label: above
     settings:
@@ -292,6 +364,15 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_footer:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }
