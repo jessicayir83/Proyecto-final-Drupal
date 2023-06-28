@@ -1,5 +1,11 @@
 web/files
-web/sites/*/files
+web/sites/*/files/css
+web/sites/*/files/js
+web/sites/*/files/media-icons
+web/sites/*/files/php
+web/sites/*/files/styles
+web/sites/*/files/sync
+web/sites/*/files/.htaccess
 web/sites/*/settings.local.php
 vendor
 web/core

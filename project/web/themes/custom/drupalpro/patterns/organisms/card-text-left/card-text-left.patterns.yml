@@ -3,13 +3,10 @@ card-text-left:
   description: "Card with text in column left"
   fields:
     image:
-      type: "render"
-      label: "Image"
-      description: "card image left"
-      preview:
-        theme: "image"
-        uri: "/image-blogs"
-        alt: "go to posts"
+      type: image
+      label: Image
+      description: image of the post
+      preview: <img src="/sites/default/files/2023-06/Drupal10.jpg" alt="Preview Image"> 
 
     title:
       type: string
