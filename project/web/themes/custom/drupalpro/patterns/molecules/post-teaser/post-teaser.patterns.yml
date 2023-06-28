@@ -1,0 +1,34 @@
+post-teaser:
+  label: 'Post teaser'
+  description: 'Component with title, text and category-button.'
+  fields:
+    title:
+      type: mixed
+      label: Title
+      description: Title of the card
+      preview: <a href="#" class="title">Title for this post-teaser</a>
+    text:
+      type: string
+      label: Text
+      description: Text of the card
+      preview: 'Eros hos lucidus nulla ullamcorper ut. Antehabeo conventio eum humo iriure ludus macto paulatim pertineo. Adipiscing at dolore humo jugis pagus quidem saepius vulpes. Haero oppeto voco. Aliquam eros genitus hos ludus populus quae sino tincidunt.'
+    category_button:
+      type: mixed
+      label: category-button
+      description: category of the post
+      preview: <a href="#" class="btn btn--outlined">Any category</a>
+    image:
+      type: image
+      label: Image
+      description: image of the post
+      preview: <img src="/themes/custom/drupalpro/images/image-example.jpg" alt="Preview Image">
+  libraries:
+    -
+      category_button:
+        css:
+          component:
+            css/styles.css: {}
+      title_button:
+        css:
+          component:
+            css/styles.css: {}
