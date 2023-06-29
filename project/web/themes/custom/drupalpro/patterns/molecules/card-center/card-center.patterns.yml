@@ -8,7 +8,7 @@ card-center:
       description: "card center"
       preview:
         theme: "image"
-        uri: ""
+        uri: <img src="/sites/default/files/2023-06/centerBanner.jpg" alt="Preview Image">
         alt: "go to posts"
     title:
       type: string
@@ -19,7 +19,7 @@ card-center:
       type: string
       label: Text subtitle
       description: card for titles
-      preview: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..."
+      preview: "Welcome to the drupal site, where you will find everything you are looking for, from solutions, updates, news and more."
   libraries:
     - card-text-left:
         css:
