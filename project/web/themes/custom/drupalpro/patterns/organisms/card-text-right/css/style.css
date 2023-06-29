@@ -1,37 +1,53 @@
 .card {
-    background-color: #93b1eb;
     display: flex;
-    align-items: center;
-    border-radius: 4px;
-    padding: 10px;
-}
+    background-color: #008080;
+    flex-wrap: wrap; /* Añadido para permitir envolver los elementos en la versión móvil */
+  }
   
-.card img {
-    width: 200px; 
-    margin-right: 10px;
-}
-  
-.card-content {
+  .card-content {
     flex: 1;
-}
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   
-.card-content h2 {
-    margin-top: 0;
-}
+  .card-content h2,
+  .card-content p {
+    margin: 10px 0;
+    color: aliceblue;
+  }
   
-.card-content p {
-    margin-bottom: 0;
-}
+  .button {
+    display: flex;
+    justify-content: center;
+  }
   
-.button {
-    background-color: #565657; 
-    color: white; 
-    padding: 10px 20px; 
-    border: none;
-    cursor: pointer; 
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #9ab9f1;
-}
+  .button a {
+    width: 200px; /* Ancho fijo para el botón */
+    height: 40px; /* Alto fijo para el botón */
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para versión móvil */
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column; /* Cambia a dirección de columna en la versión móvil */
+    }
+    
+    .card-content,
+    .image-container {
+      width: 100%; /* Ocupa todo el ancho en la versión móvil */
+    }
+  }
+  

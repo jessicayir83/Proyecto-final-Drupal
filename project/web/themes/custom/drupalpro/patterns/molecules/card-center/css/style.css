@@ -1,15 +1,60 @@
-.card-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 350px; 
-    border:none;
-    border-radius: 4px;
-    background-color: aqua;
-  }
-  
-.card-c{
-    text-align: center;
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
-  
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%; /* Proporción del contenedor de imagen */
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #fff;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Aplica un degradado desde rgba(0, 0, 0, 0.7) hacia transparente */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  white-space: normal; /* Permite el salto de línea */
+}
+
+.content p {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+
+/* Estilos para hacerlo responsive */
+@media screen and (max-width: 850px) {
+
+  .content h1 {
+    font-size: 24px;
+  }
+}
