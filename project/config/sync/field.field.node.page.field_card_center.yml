@@ -1,17 +1,18 @@
-uuid: 86577bb7-9a27-4803-ad14-123aff5dd078
+uuid: f24a35b2-4daa-4720-8a2a-3373897fa8e6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_components
+    - field.storage.node.field_card_center
     - node.type.page
+    - paragraphs.paragraphs_type.ctc
   module:
     - entity_reference_revisions
-id: node.page.field_components
-field_name: field_components
+id: node.page.field_card_center
+field_name: field_card_center
 entity_type: node
 bundle: page
-label: Components
+label: card-center
 description: ''
 required: false
 translatable: false
@@ -20,10 +21,20 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      ctc: ctc
     negate: 0
     target_bundles_drag_drop:
+      ctc:
+        weight: 5
+        enabled: true
+      ctf:
+        weight: 6
+        enabled: false
       ctr:
-        weight: 2
+        weight: 7
+        enabled: false
+      footer:
+        weight: 8
         enabled: false
 field_type: entity_reference_revisions

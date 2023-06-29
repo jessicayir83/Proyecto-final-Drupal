@@ -1,0 +1,10 @@
+uuid: a335f3d5-e547-4af6-b918-8c14c86aae7c
+langcode: en
+status: true
+dependencies: {  }
+id: ctf
+label: ctf
+icon_uuid: null
+icon_default: null
+description: 'card text left'
+behavior_plugins: {  }

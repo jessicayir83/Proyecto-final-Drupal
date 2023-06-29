@@ -14,8 +14,128 @@ dependencies:
     - node.type.post
   module:
     - comment
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          57beee81-e770-413f-8a5e-2a89585df808:
+            uuid: 57beee81-e770-413f-8a5e-2a89585df808
+            region: content
+            configuration:
+              id: 'field_block:node:post:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          defbbb2f-a9ad-496e-827c-d2e00860678d:
+            uuid: defbbb2f-a9ad-496e-827c-d2e00860678d
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_imagen'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          a53bae3d-7843-4368-9862-6c4e9dee6a33:
+            uuid: a53bae3d-7843-4368-9862-6c4e9dee6a33
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_category_post'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          400a1879-42c5-4d39-9226-7d601ece3385:
+            uuid: 400a1879-42c5-4d39-9226-7d601ece3385
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_keyword_post'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          93c87fcc-6cca-48fc-ac32-c0f1b643d996:
+            uuid: 93c87fcc-6cca-48fc-ac32-c0f1b643d996
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_comments'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: comment_default
+                label: above
+                settings:
+                  view_mode: default
+                  pager_id: 0
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          4ec510e0-e470-4cf5-98c6-cbda1973c3c2:
+            uuid: 4ec510e0-e470-4cf5-98c6-cbda1973c3c2
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          d1840621-e42e-4a65-a22d-40543c88f15c:
+            uuid: d1840621-e42e-4a65-a22d-40543c88f15c
+            region: content
+            configuration:
+              id: 'extra_field_block:node:post:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 6
+            additional: {  }
+        third_party_settings: {  }
 id: node.post.default
 targetEntityType: node
 bundle: post

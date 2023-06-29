@@ -1,0 +1,14 @@
+card-home:
+  label: "card-home"
+  description: "three cards in home"
+  fields:
+    title:
+      type: string
+      label: Text title
+      description: Title of card home
+      preview: "You can view diferent content"
+  libraries:
+    - card-home:
+        css:
+          component:
+            /css/style.css: {}

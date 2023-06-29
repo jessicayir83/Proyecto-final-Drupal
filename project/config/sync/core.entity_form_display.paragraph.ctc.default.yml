@@ -6,10 +6,9 @@ dependencies:
     - field.field.paragraph.ctc.field_content_landing
     - field.field.paragraph.ctc.field_image_landing
     - field.field.paragraph.ctc.field_title_landing
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.ctc
   module:
-    - image
+    - media_library
     - text
 id: paragraph.ctc.default
 targetEntityType: paragraph
@@ -25,12 +24,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_image_landing:
-    type: image_image
-    weight: 1
+    type: media_library_widget
+    weight: 3
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
   field_title_landing:
     type: string_textfield

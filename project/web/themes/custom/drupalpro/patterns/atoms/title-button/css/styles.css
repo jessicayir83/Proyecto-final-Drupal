@@ -1,0 +1,13 @@
+.title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #012E40;
+    padding: 1em 3em 1em;
+}
+
+.title:hover{
+    color: #3CA6A6;
+}

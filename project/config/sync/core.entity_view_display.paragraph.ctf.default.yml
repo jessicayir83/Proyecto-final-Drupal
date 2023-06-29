@@ -1,0 +1,48 @@
+uuid: 78b356d6-a96c-42dc-a96a-4b1abe1ac7ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ctf.field_image_f
+    - field.field.paragraph.ctf.field_subtitle_f
+    - field.field.paragraph.ctf.field_text_button
+    - field.field.paragraph.ctf.field_title_f
+    - paragraphs.paragraphs_type.ctf
+id: paragraph.ctf.default
+targetEntityType: paragraph
+bundle: ctf
+mode: default
+content:
+  field_image_f:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_subtitle_f:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_text_button:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title_f:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

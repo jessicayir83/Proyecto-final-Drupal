@@ -1,0 +1,40 @@
+uuid: ac40dcbd-caf6-4142-88e0-d2c951894014
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_footer
+    - node.type.page
+    - paragraphs.paragraphs_type.footer
+  module:
+    - entity_reference_revisions
+id: node.page.field_footer
+field_name: field_footer
+entity_type: node
+bundle: page
+label: footer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      footer: footer
+    negate: 0
+    target_bundles_drag_drop:
+      ctc:
+        weight: 5
+        enabled: false
+      ctf:
+        weight: 6
+        enabled: false
+      ctr:
+        weight: 7
+        enabled: false
+      footer:
+        weight: 8
+        enabled: true
+field_type: entity_reference_revisions

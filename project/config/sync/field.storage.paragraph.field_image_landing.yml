@@ -1,27 +1,17 @@
-uuid: 02f656e8-465b-4205-9090-5aecb1e19533
+uuid: cab630a7-44f1-4ad6-a1bc-b37e340cabb3
 langcode: en
 status: true
 dependencies:
   module:
-    - file
-    - image
+    - media
     - paragraphs
 id: paragraph.field_image_landing
 field_name: field_image_landing
 entity_type: paragraph
-type: image
+type: entity_reference
 settings:
-  target_type: file
-  display_field: false
-  display_default: false
-  uri_scheme: public
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-module: image
+  target_type: media
+module: core
 locked: false
 cardinality: 1
 translatable: true

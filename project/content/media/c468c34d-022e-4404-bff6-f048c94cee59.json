@@ -1,38 +1,27 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/img-home?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/img-home?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/media\/image"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/media\/image"
         },
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/revision_user": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/user\/1?_format=hal_json"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/uid": [
-            {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/user\/1?_format=hal_json",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/thumbnail": [
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/image%20home.jpg",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/image%20home.jpg",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
                 "lang": "en"
             }
         ]
     },
     "mid": [
         {
-            "value": 2
+            "value": 1
         }
     ],
     "uuid": [
@@ -53,89 +42,54 @@
     ],
     "revision_created": [
         {
-            "value": "2023-06-17T21:13:16+00:00",
+            "value": "2023-06-24T23:53:11+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "_embedded": {
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "6b0daabe-0c31-4ed2-ac34-730104179bd8"
-                    }
-                ]
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "6b0daabe-0c31-4ed2-ac34-730104179bd8"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/thumbnail": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/image%20home.jpg"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "44cac6ca-7a4c-4602-b788-4dd919289932"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/image%20home.jpg"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "44cac6ca-7a4c-4602-b788-4dd919289932"
-                    }
-                ],
-                "lang": "en"
-            }
-        ]
-    },
     "status": [
         {
             "value": true,
             "lang": "en"
         }
     ],
+    "_embedded": {
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a165d927-dd68-474f-9f55-4176e12b2275"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20009c7e-5abc-475f-9b0b-442f91cc84b4"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
     "name": [
         {
             "value": "image home.jpg",
