@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/block\/32?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c1514efc-d962-4376-8277-2964b8b40be4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-07-01T18:31:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "eff",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-01T18:31:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h6 style=\"color:#292F33;\">Recent blogs<\/h6>",
+            "format": "full_html",
+            "processed": "<h6 style=\"color:#292F33;\">Recent blogs<\/h6>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_card_center
+    - field.field.node.page.field_card_gallery
     - field.field.node.page.field_card_home
     - field.field.node.page.field_card_text_left
     - field.field.node.page.field_card_text_right
@@ -35,6 +36,7 @@ content:
     region: content
 hidden:
   field_card_center: true
+  field_card_gallery: true
   field_card_home: true
   field_card_text_left: true
   field_card_text_right: true

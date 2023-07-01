@@ -1,0 +1,30 @@
+card-gallery:
+  label: "card-gallery"
+  description: "Card with text in column left"
+  fields:
+    image:
+      type: image
+      label: Image
+      description: image of the gallery
+      preview: <img src="/sites/default/files/2023-06/Drupal10.jpg" alt="Preview Image"> 
+    title:
+      type: string
+      label: Text title
+      description: Title of card home
+      preview: "Welcome to the Blog"
+    subtitle:
+      type: string
+      label: Text subtitle
+      description: Title of card home
+      preview: "We have many posts about drupal, you can see them with just one click, Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    link:
+      type: string
+      label: 'link'
+      description: 'link to'
+      preview: GO
+
+  libraries:
+    - card-gallery:
+        css:
+          component:
+            /css/style.css: {}

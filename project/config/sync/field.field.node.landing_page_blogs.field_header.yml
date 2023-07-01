@@ -1,0 +1,46 @@
+uuid: 619cb3dd-ab6d-464d-96c9-fd4261933b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - node.type.landing_page_blogs
+    - paragraphs.paragraphs_type.ctc
+  module:
+    - entity_reference_revisions
+id: node.landing_page_blogs.field_header
+field_name: field_header
+entity_type: node
+bundle: landing_page_blogs
+label: header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ctc: ctc
+    negate: 0
+    target_bundles_drag_drop:
+      card_home:
+        weight: 7
+        enabled: false
+      cgallery:
+        weight: 8
+        enabled: false
+      ctc:
+        weight: 9
+        enabled: true
+      ctf:
+        weight: 10
+        enabled: false
+      ctr:
+        weight: 11
+        enabled: false
+      footer:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

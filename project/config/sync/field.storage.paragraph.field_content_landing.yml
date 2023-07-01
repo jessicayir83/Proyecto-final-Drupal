@@ -1,16 +1,18 @@
-uuid: 757a365a-9cc4-4aac-9bfa-072b7595799c
+uuid: e6243845-f61f-4197-b4b8-2a4671e851ca
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-    - text
 id: paragraph.field_content_landing
 field_name: field_content_landing
 entity_type: paragraph
-type: text_long
-settings: {  }
-module: text
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

@@ -1,0 +1,19 @@
+uuid: 50ac81f5-61fc-40db-8abd-350cca7133c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_gallery
+    - paragraphs.paragraphs_type.cgallery
+id: paragraph.cgallery.field_link_gallery
+field_name: field_link_gallery
+entity_type: paragraph
+bundle: cgallery
+label: Link-gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

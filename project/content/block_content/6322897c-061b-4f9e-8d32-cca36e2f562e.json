@@ -1,0 +1,76 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/block\/17?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6322897c-061b-4f9e-8d32-cca36e2f562e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-06-28T21:21:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "We have a videos gallery",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-28T21:21:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h3 style=\"color:#20242B;text-align:center;\">We have a videos gallery<\/h3>",
+            "format": "full_html",
+            "processed": "<h3 style=\"color:#20242B;text-align:center;\">We have a videos gallery<\/h3>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
