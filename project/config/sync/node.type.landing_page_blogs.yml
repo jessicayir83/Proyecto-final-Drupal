@@ -13,6 +13,6 @@ name: Landing-page-Blogs
 type: landing_page_blogs
 description: 'Este tipo de contenido es para los blogs'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 2
-display_submitted: true
+display_submitted: false

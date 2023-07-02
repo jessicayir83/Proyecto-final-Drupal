@@ -1,11 +1,11 @@
-uuid: e6243845-f61f-4197-b4b8-2a4671e851ca
+uuid: 550ffc52-5dba-40aa-99a4-1648ef565780
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_content_landing
-field_name: field_content_landing
+id: paragraph.field_title_gallery
+field_name: field_title_gallery
 entity_type: paragraph
 type: string
 settings:

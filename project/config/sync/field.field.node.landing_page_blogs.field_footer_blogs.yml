@@ -1,0 +1,46 @@
+uuid: 71b0026a-bec4-469c-afc3-5fe28a15d617
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_footer_blogs
+    - node.type.landing_page_blogs
+    - paragraphs.paragraphs_type.footer
+  module:
+    - entity_reference_revisions
+id: node.landing_page_blogs.field_footer_blogs
+field_name: field_footer_blogs
+entity_type: node
+bundle: landing_page_blogs
+label: footer-blogs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      footer: footer
+    negate: 0
+    target_bundles_drag_drop:
+      card_home:
+        weight: 7
+        enabled: false
+      cgallery:
+        weight: 8
+        enabled: false
+      ctc:
+        weight: 9
+        enabled: false
+      ctf:
+        weight: 10
+        enabled: false
+      ctr:
+        weight: 11
+        enabled: false
+      footer:
+        weight: 12
+        enabled: true
+field_type: entity_reference_revisions

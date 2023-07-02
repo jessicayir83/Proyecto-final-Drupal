@@ -1,21 +1,19 @@
-uuid: dc6dfd13-7500-4e39-9008-5cd23f7238f9
+uuid: 76efa75c-2df3-4f34-8baa-8b82871880b5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_content_landing
     - paragraphs.paragraphs_type.ctc
-  module:
-    - text
 id: paragraph.ctc.field_content_landing
 field_name: field_content_landing
 entity_type: paragraph
 bundle: ctc
-label: content-landing
+label: cONTENT-LANDING
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

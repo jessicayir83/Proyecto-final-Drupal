@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page_blogs.field_footer_blogs
+    - field.field.node.landing_page_blogs.field_header
     - field.field.node.landing_page_blogs.layout_builder__layout
     - node.type.landing_page_blogs
     - views.view.view_post
@@ -74,4 +76,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_footer_blogs: true
+  field_header: true
   layout_builder__layout: true

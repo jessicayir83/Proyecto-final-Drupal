@@ -1,0 +1,33 @@
+uuid: 1aa8d08a-3a09-4648-a8fc-b3f07faa9778
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_gallery
+    - media.type.image
+    - media.type.image_post
+    - media.type.images_for_titles
+    - paragraphs.paragraphs_type.cgallery
+id: paragraph.cgallery.field_image_gallery
+field_name: field_image_gallery
+entity_type: paragraph
+bundle: cgallery
+label: image-gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      image_post: image_post
+      images_for_titles: images_for_titles
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image_post
+field_type: entity_reference

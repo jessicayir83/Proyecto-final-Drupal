@@ -1,0 +1,49 @@
+uuid: ac2512fa-58d0-4004-b218-eb850726faa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cgallery.field_image_gallery
+    - field.field.paragraph.cgallery.field_link_gallery
+    - field.field.paragraph.cgallery.field_subtitle_gallery
+    - field.field.paragraph.cgallery.field_title_gallery
+    - paragraphs.paragraphs_type.cgallery
+id: paragraph.cgallery.default
+targetEntityType: paragraph
+bundle: cgallery
+mode: default
+content:
+  field_image_gallery:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link_gallery:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_subtitle_gallery:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title_gallery:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

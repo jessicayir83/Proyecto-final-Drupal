@@ -3,153 +3,33 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
     - field.field.node.page.body
     - field.field.node.page.field_card_center
+    - field.field.node.page.field_card_gallery
+    - field.field.node.page.field_card_home
     - field.field.node.page.field_card_text_left
     - field.field.node.page.field_card_text_right
     - field.field.node.page.field_footer
     - field.field.node.page.layout_builder__layout
     - node.type.page
-    - views.view.full_post
-    - views.view.landing_page_post
-    - views.view.view_gallery_video
-    - views.view.view_post
   module:
     - entity_reference_revisions
     - layout_builder
     - layout_discovery
     - text
     - user
-    - views
 third_party_settings:
   layout_builder:
     enabled: true
     allow_custom: true
     sections:
       -
-        layout_id: layout_onecol
-        layout_settings:
-          label: image
-          context_mapping: {  }
-        components:
-          fe299c2d-d3ff-4abb-9d31-2efcc49098bf:
-            uuid: fe299c2d-d3ff-4abb-9d31-2efcc49098bf
-            region: content
-            configuration:
-              id: 'inline_block:basic'
-              label: image
-              label_display: visible
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 1
-              block_serialized: null
-            weight: 0
-            additional: {  }
-          870ff1ca-7515-42ed-bbe4-f5b2813e88b8:
-            uuid: 870ff1ca-7515-42ed-bbe4-f5b2813e88b8
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_card_text_right'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: above
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
-          658b41e4-7b0b-4149-9995-b01588056de6:
-            uuid: 658b41e4-7b0b-4149-9995-b01588056de6
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_card_text_left'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: above
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 2
-            additional: {  }
-          1abe3aaa-db03-4aac-8dc4-54ded462ba0d:
-            uuid: 1abe3aaa-db03-4aac-8dc4-54ded462ba0d
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_card_center'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: above
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 3
-            additional: {  }
-          60bb7bae-0b54-4c0e-bb7b-f4b367e27b50:
-            uuid: 60bb7bae-0b54-4c0e-bb7b-f4b367e27b50
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_footer'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: above
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 4
-            additional: {  }
-        third_party_settings: {  }
-      -
         layout_id: layout_twocol_section
         layout_settings:
           label: 'header section'
           context_mapping: {  }
           column_widths: 75-25
-        components:
-          6db8f95c-e2c2-451d-98be-b2dea5ca26b2:
-            uuid: 6db8f95c-e2c2-451d-98be-b2dea5ca26b2
-            region: second
-            configuration:
-              id: 'views_block:view_post-block_1'
-              label: ''
-              label_display: visible
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: none
-            weight: 0
-            additional: {  }
-          4fa1b53f-e6b6-4521-8a86-c76e28518bfe:
-            uuid: 4fa1b53f-e6b6-4521-8a86-c76e28518bfe
-            region: first
-            configuration:
-              id: 'inline_block:basic'
-              label: Titulo
-              label_display: visible
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 2
-              block_serialized: null
-            weight: 0
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_twocol_section
@@ -157,56 +37,14 @@ third_party_settings:
           label: sub-header
           context_mapping: {  }
           column_widths: 50-50
-        components:
-          fc05d4ca-f234-486b-8b98-daf376e5d4fe:
-            uuid: fc05d4ca-f234-486b-8b98-daf376e5d4fe
-            region: first
-            configuration:
-              id: 'inline_block:basic'
-              label: 'descripcion 1'
-              label_display: '0'
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 4
-              block_serialized: null
-            weight: 0
-            additional: {  }
-          9ac90ee6-3580-42d9-a040-1657da5e5978:
-            uuid: 9ac90ee6-3580-42d9-a040-1657da5e5978
-            region: second
-            configuration:
-              id: 'inline_block:basic'
-              label: image
-              label_display: '0'
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 5
-              block_serialized: null
-            weight: 0
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol
         layout_settings:
           label: 'subtitulo post'
           context_mapping: {  }
-        components:
-          7bd400cf-92ad-4b29-94a0-03cf540ebab7:
-            uuid: 7bd400cf-92ad-4b29-94a0-03cf540ebab7
-            region: content
-            configuration:
-              id: 'inline_block:basic'
-              label: subtitulr
-              label_display: '0'
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 6
-              block_serialized: null
-            weight: 0
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_twocol_section
@@ -214,67 +52,14 @@ third_party_settings:
           label: post
           context_mapping: {  }
           column_widths: 50-50
-        components:
-          361b102a-a0ab-4106-8c69-e01ee69d2800:
-            uuid: 361b102a-a0ab-4106-8c69-e01ee69d2800
-            region: first
-            configuration:
-              id: 'views_block:landing_page_post-block_1'
-              label: ''
-              label_display: '0'
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: '1'
-            weight: 0
-            additional: {  }
-          be4bcc6e-d61d-424d-86a5-39dc1842c7f7:
-            uuid: be4bcc6e-d61d-424d-86a5-39dc1842c7f7
-            region: second
-            configuration:
-              id: 'views_block:landing_page_post-block_1'
-              label: ''
-              label_display: '0'
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: '1'
-            weight: 0
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol
         layout_settings:
           label: 'We have an Gallery Top'
           context_mapping: {  }
-        components:
-          3a898ef2-4061-4b8d-afcd-4da140041e97:
-            uuid: 3a898ef2-4061-4b8d-afcd-4da140041e97
-            region: content
-            configuration:
-              id: 'inline_block:basic'
-              label: 'We have a Videos Gallery'
-              label_display: '0'
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 7
-              block_serialized: null
-            weight: 0
-            additional: {  }
-          1da0725b-cfc1-42ed-b443-55bf612338e6:
-            uuid: 1da0725b-cfc1-42ed-b443-55bf612338e6
-            region: content
-            configuration:
-              id: 'views_block:view_gallery_video-block_1'
-              label: ''
-              label_display: '0'
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: '4'
-            weight: 1
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_twocol_section
@@ -282,47 +67,7 @@ third_party_settings:
           label: ''
           context_mapping: {  }
           column_widths: 75-25
-        components:
-          4bbd0e09-2f21-43b4-92c8-0a353cb383c6:
-            uuid: 4bbd0e09-2f21-43b4-92c8-0a353cb383c6
-            region: first
-            configuration:
-              id: 'inline_block:basic'
-              label: category-home
-              label_display: '0'
-              provider: layout_builder
-              view_mode: full
-              context_mapping: {  }
-              block_revision_id: 8
-              block_serialized: null
-            weight: 0
-            additional: {  }
-          bd60c770-3978-4a62-b316-40395743ce00:
-            uuid: bd60c770-3978-4a62-b316-40395743ce00
-            region: second
-            configuration:
-              id: 'views_block:full_post-block_1'
-              label: ''
-              label_display: visible
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: '1'
-            weight: 0
-            additional: {  }
-          bab62146-e4ab-4438-9d9d-aed87aeb049e:
-            uuid: bab62146-e4ab-4438-9d9d-aed87aeb049e
-            region: first
-            configuration:
-              id: 'views_block:view_post-block_3'
-              label: ''
-              label_display: '0'
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: '4'
-            weight: 1
-            additional: {  }
+        components: {  }
         third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
@@ -346,6 +91,24 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_card_gallery:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_card_home:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_card_text_left:
     type: entity_reference_revisions_entity_view
