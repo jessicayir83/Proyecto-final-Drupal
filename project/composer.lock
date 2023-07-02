@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6758e897e5e54e04e97235fc6e15080",
+    "content-hash": "f616853d2608d24b4427b1cb7535b357",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2266,17 +2266,17 @@
         },
         {
             "name": "drupal/ui_patterns",
-            "version": "1.5.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ui_patterns.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ui_patterns-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "fbe88f3d70f50a02672cba974275a5b7703be41a"
+                "url": "https://ftp.drupal.org/files/projects/ui_patterns-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "83b477eb5f668846c0f150ef0a1926f3aba59d14"
             },
             "require": {
                 "drupal/core": "^9 || ^10"
@@ -2288,8 +2288,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1674137427",
+                    "version": "8.x-1.7",
+                    "datestamp": "1688044506",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
