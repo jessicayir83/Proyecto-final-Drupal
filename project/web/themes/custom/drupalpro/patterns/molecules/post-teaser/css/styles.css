@@ -8,6 +8,7 @@
     background-color: #012E40;
     padding: 1em 0 .2em;
     text-align: center;
+    width: 100%;
 }
 
 .card__text{
@@ -26,10 +27,12 @@
 .card__text_category{
     font-weight: bold;
     padding: 1em 0 0 3.5em;
+    margin-top: 1em;
 }
 
 .card__button_category {
     font-weight: bold;
     padding: 0 0 3em 2em;
+    margin-top: 2em;
 }
 
