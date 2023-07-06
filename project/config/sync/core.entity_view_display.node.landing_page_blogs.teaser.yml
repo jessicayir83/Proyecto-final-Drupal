@@ -22,8 +22,8 @@ third_party_settings:
         layout_id: layout_twocol_section
         layout_settings:
           label: Layout-post
-          context_mapping: {  }
           column_widths: 75-25
+          context_mapping: {  }
         components:
           dc6a681d-6782-4f9e-aedb-0f60d74c0840:
             uuid: dc6a681d-6782-4f9e-aedb-0f60d74c0840

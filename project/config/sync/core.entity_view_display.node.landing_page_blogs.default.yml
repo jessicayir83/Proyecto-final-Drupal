@@ -22,8 +22,8 @@ third_party_settings:
         layout_id: layout_twocol_section
         layout_settings:
           label: Layout-Blogs
-          context_mapping: {  }
           column_widths: 75-25
+          context_mapping: {  }
         components:
           91a68bcb-a3c7-4894-9bc5-55af81db5187:
             uuid: 91a68bcb-a3c7-4894-9bc5-55af81db5187
