@@ -1,15 +1,15 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/block\/1?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/admin\/content\/block\/16?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-66w77pdoczi.ws-us100.gitpod.io\/rest\/type\/block_content\/basic"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
         }
     },
     "id": [
         {
-            "value": 1
+            "value": 16
         }
     ],
     "uuid": [

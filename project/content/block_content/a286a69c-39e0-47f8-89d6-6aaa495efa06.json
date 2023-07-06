@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/admin\/content\/block\/25?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/admin\/content\/block\/38?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 25
+            "value": 38
         }
     ],
     "uuid": [
         {
-            "value": "ba009745-1f68-432b-b008-e10846cfb71c"
+            "value": "a286a69c-39e0-47f8-89d6-6aaa495efa06"
         }
     ],
     "langcode": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-06-17T21:24:36+00:00",
+            "value": "2023-07-06T17:10:14+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,13 +42,13 @@
     ],
     "info": [
         {
-            "value": "descripcion 1",
+            "value": "c",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "2023-06-17T21:24:36+00:00",
+            "value": "2023-07-06T17:10:14+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -72,9 +72,9 @@
     ],
     "body": [
         {
-            "value": "<h3>Drupal is content management software. It's used to make many of the websites and applications you use every day. Drupal has great standard features, like easy content authoring, reliable performance, and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles. Its tools help you build the versatile, structured content that dynamic web experiences need.<\/h3>",
+            "value": "<h6>Recent posts<\/h6>",
             "format": "full_html",
-            "processed": "<h3>Drupal is content management software. It's used to make many of the websites and applications you use every day. Drupal has great standard features, like easy content authoring, reliable performance, and excellent security. But what sets it apart is its flexibility; modularity is one of its core principles. Its tools help you build the versatile, structured content that dynamic web experiences need.<\/h3>",
+            "processed": "<h6>Recent posts<\/h6>",
             "summary": "",
             "lang": "en"
         }
