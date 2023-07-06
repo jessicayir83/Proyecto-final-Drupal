@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/admin\/content\/block\/27?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/admin\/content\/block\/35?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 27
+            "value": 35
         }
     ],
     "uuid": [
         {
-            "value": "cea0a30d-dabb-480c-83d1-fad83d78f336"
+            "value": "62193999-ce4b-4cdc-8584-220869cec4ce"
         }
     ],
     "langcode": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-06-17T21:26:51+00:00",
+            "value": "2023-07-06T14:42:16+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,13 +42,13 @@
     ],
     "info": [
         {
-            "value": "image",
+            "value": "FG",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "2023-06-17T21:26:51+00:00",
+            "value": "2023-07-06T14:42:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -67,15 +67,6 @@
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
-        }
-    ],
-    "body": [
-        {
-            "value": "<p>&lt;img src=\"\/img-home\" data-align=\"center\" \/&gt;<\/p>",
-            "format": "full_html",
-            "processed": "<p>&lt;img src=\"\/img-home\" data-align=\"center\" \/&gt;<\/p>",
-            "summary": "",
             "lang": "en"
         }
     ]

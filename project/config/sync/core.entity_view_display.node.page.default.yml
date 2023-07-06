@@ -15,7 +15,6 @@ dependencies:
   module:
     - entity_reference_revisions
     - layout_builder
-    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -24,49 +23,9 @@ third_party_settings:
     allow_custom: true
     sections:
       -
-        layout_id: layout_twocol_section
-        layout_settings:
-          label: 'header section'
-          column_widths: 75-25
-          context_mapping: {  }
-        components: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layout_twocol_section
-        layout_settings:
-          label: sub-header
-          column_widths: 50-50
-          context_mapping: {  }
-        components: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: 'subtitulo post'
-          context_mapping: {  }
-        components: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layout_twocol_section
-        layout_settings:
-          label: post
-          column_widths: 50-50
-          context_mapping: {  }
-        components: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: 'We have an Gallery Top'
-          context_mapping: {  }
-        components: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layout_twocol_section
+        layout_id: layout_builder_blank
         layout_settings:
           label: ''
-          column_widths: 75-25
-          context_mapping: {  }
         components: {  }
         third_party_settings: {  }
 _core:
