@@ -5,7 +5,9 @@
     font-weight: bold;
     text-decoration: none;
     background-color: #012E40;
-    padding: 1em 3em 1em;
+    padding: 1em 0em;
+    width: 100%;
+    text-align: center;
 }
 
 .title:hover{

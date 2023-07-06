@@ -31,7 +31,7 @@ content:
     region: content
   field_category_post:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
