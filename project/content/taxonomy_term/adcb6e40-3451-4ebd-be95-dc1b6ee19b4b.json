@@ -1,12 +1,12 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/taxonomy_term\/palabras_claves_post"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/taxonomy_term\/palabras_claves_post"
         },
-        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_claves_post\/parent": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_claves_post\/parent": [
             null
         ]
     },
@@ -55,7 +55,7 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_claves_post\/parent": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_claves_post\/parent": [
             null
         ]
     },
