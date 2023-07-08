@@ -4,17 +4,17 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/paragraph\/cgallery"
         }
     },
     "id": [
         {
-            "value": 6
+            "value": 9
         }
     ],
     "uuid": [
         {
-            "value": "5838f447-2b1d-4f29-9ba9-143dc2fe0296"
+            "value": "d24939ac-89f8-4838-b142-607a28df28c4"
         }
     ],
     "langcode": [
@@ -25,7 +25,7 @@
     ],
     "type": [
         {
-            "target_id": "ctr"
+            "target_id": "cgallery"
         }
     ],
     "status": [
@@ -36,14 +36,14 @@
     ],
     "created": [
         {
-            "value": "2023-07-08T00:10:08+00:00",
+            "value": "2023-07-08T04:18:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "21"
+            "value": "20"
         }
     ],
     "parent_type": [
@@ -53,7 +53,7 @@
     ],
     "parent_field_name": [
         {
-            "value": "field_card_text_right"
+            "value": "field_card_gallery"
         }
     ],
     "behavior_settings": [
@@ -67,19 +67,19 @@
             "lang": "en"
         }
     ],
-    "field_content": [
+    "field_link_gallery": [
         {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies consequat ligula, non porta diam lobortis sit amet. Maecenas eu sem luctus arcu lacinia tempor. "
+            "value": "GO TO GALLERY"
         }
     ],
-    "field_link": [
+    "field_subtitle_gallery": [
         {
-            "value": "GO TO POSTS"
+            "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
         }
     ],
-    "field_title": [
+    "field_title_gallery": [
         {
-            "value": "POSTS"
+            "value": "GALLERY VIDEOS"
         }
     ]
 }

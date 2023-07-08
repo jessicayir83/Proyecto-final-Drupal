@@ -4,17 +4,17 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctc"
         }
     },
     "id": [
         {
-            "value": 6
+            "value": 8
         }
     ],
     "uuid": [
         {
-            "value": "5838f447-2b1d-4f29-9ba9-143dc2fe0296"
+            "value": "578c5ef8-d737-4c24-bec0-c0d0f4ee3f7a"
         }
     ],
     "langcode": [
@@ -25,7 +25,7 @@
     ],
     "type": [
         {
-            "target_id": "ctr"
+            "target_id": "ctc"
         }
     ],
     "status": [
@@ -36,14 +36,14 @@
     ],
     "created": [
         {
-            "value": "2023-07-08T00:10:08+00:00",
+            "value": "2023-07-08T04:18:39+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "21"
+            "value": "20"
         }
     ],
     "parent_type": [
@@ -53,7 +53,7 @@
     ],
     "parent_field_name": [
         {
-            "value": "field_card_text_right"
+            "value": "field_card_center"
         }
     ],
     "behavior_settings": [
@@ -67,19 +67,14 @@
             "lang": "en"
         }
     ],
-    "field_content": [
+    "field_content_landing": [
         {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies consequat ligula, non porta diam lobortis sit amet. Maecenas eu sem luctus arcu lacinia tempor. "
+            "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type."
         }
     ],
-    "field_link": [
+    "field_title_landing": [
         {
-            "value": "GO TO POSTS"
-        }
-    ],
-    "field_title": [
-        {
-            "value": "POSTS"
+            "value": "Welcome to Blogs and Posts Drupal 10"
         }
     ]
 }
