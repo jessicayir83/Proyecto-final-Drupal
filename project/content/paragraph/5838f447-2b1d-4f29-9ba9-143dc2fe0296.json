@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
+        }
+    },
+    "id": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5838f447-2b1d-4f29-9ba9-143dc2fe0296"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ctr"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-08T00:10:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "21"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_card_text_right"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies consequat ligula, non porta diam lobortis sit amet. Maecenas eu sem luctus arcu lacinia tempor. "
+        }
+    ],
+    "field_link": [
+        {
+            "value": "GO TO POSTS"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "POSTS"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctf"
+        }
+    },
+    "id": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "48dc6e1e-bd4e-4829-953c-0bfd3c214480"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ctf"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-08T00:09:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "21"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_card_text_left"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_subtitle_f": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies consequat ligula, non porta diam lobortis sit amet. Maecenas eu sem luctus arcu lacinia tempor. "
+        }
+    ],
+    "field_text_button": [
+        {
+            "value": "GO TO BLOGS"
+        }
+    ],
+    "field_title_f": [
+        {
+            "value": "BLOGS"
+        }
+    ]
+}

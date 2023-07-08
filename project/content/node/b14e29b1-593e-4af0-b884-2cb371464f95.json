@@ -1,38 +1,38 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/homepage?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/homepage?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/node\/page"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/node\/page"
         },
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/user\/1?_format=hal_json"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
             {
                 "href": ""
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
             {
                 "href": ""
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
             {
                 "href": ""
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_right": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_right": [
             {
                 "href": ""
             }
@@ -40,7 +40,7 @@
     },
     "nid": [
         {
-            "value": 20
+            "value": 21
         }
     ],
     "uuid": [
@@ -61,116 +61,116 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-07-06T17:18:23+00:00",
+            "value": "2023-07-08T00:17:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "0bc99ea0-be19-4f58-97fd-b74bbf8cb38c"
+                        "value": "49ea7b81-0935-4ea1-a228-93ae520fe47e"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "6b1c7924-e29c-40d1-b7e2-10ef623e745d"
+                        "value": "8156b668-e678-4563-9437-c36b2f2461f7"
                     }
                 ],
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctc"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctc"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "06a9d945-2ad1-494a-a575-93e531d783a5"
+                        "value": "f28d19cb-0060-4400-b0d0-120386c04f93"
                     }
                 ],
-                "target_revision_id": "67"
+                "target_revision_id": "20"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/paragraph\/cgallery"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/cgallery"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "2f477427-fefa-43ca-a67b-7556c1e4122e"
+                        "value": "b00c354a-fba2-4734-98a3-aad9c793f36e"
                     }
                 ],
-                "target_revision_id": "68"
+                "target_revision_id": "21"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctf"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctf"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "ba207150-b2df-4215-b026-794004bdb8fa"
+                        "value": "48dc6e1e-bd4e-4829-953c-0bfd3c214480"
                     }
                 ],
-                "target_revision_id": "69"
+                "target_revision_id": "22"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_right": [
+        "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_right": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-m1obbg0zsa4.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v4tw3dpnrzk.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "3e98a8ff-c828-4048-9e9f-5f9b391eff41"
+                        "value": "5838f447-2b1d-4f29-9ba9-143dc2fe0296"
                     }
                 ],
-                "target_revision_id": "70"
+                "target_revision_id": "23"
             }
         ]
     },
@@ -195,7 +195,7 @@
     ],
     "changed": [
         {
-            "value": "2023-07-06T17:18:23+00:00",
+            "value": "2023-07-08T00:17:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -212,6 +212,12 @@
         }
     ],
     "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
