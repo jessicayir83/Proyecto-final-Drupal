@@ -1,0 +1,63 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        }
+    },
+    "fid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "33706c07-c8fd-4f06-b7a3-0d4684d80307"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "filename": [
+        {
+            "value": "no-thumbnail.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/media-icons\/generic\/no-thumbnail.png",
+            "url": "\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 7318
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-08T04:07:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-08T04:07:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

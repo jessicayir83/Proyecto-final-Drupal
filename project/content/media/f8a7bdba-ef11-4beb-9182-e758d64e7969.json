@@ -1,26 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/media\/3\/edit?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/media\/3\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/media\/images_for_titles"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/media\/images_for_titles"
         },
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/uid": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/user\/1?_format=hal_json",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/thumbnail": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/thumbnail": [
             {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/hermoso-diseno-holograma-criptomoneda.jpg",
-                "lang": "en"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/field_media_image_2": [
-            {
-                "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/hermoso-diseno-holograma-criptomoneda.jpg",
+                "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
                 "lang": "en"
             }
         ]
@@ -48,7 +42,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-06-28T16:50:52+00:00",
+            "value": "2023-07-08T04:07:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -59,55 +53,37 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/uid": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "ccb6f615-27d3-4b9c-ae0f-3b7543ced789"
+                        "value": "8e78ae43-6fc2-4f47-9b78-4de12eed99c5"
                     }
                 ],
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/thumbnail": [
+        "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/thumbnail": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/hermoso-diseno-holograma-criptomoneda.jpg"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
                     },
                     "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/file\/file"
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "8a01c6bc-2a53-49b3-accd-fe9eeb072828"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/relation\/media\/images_for_titles\/field_media_image_2": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/hermoso-diseno-holograma-criptomoneda.jpg"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-jessicayir8-proyectofin-gglzayef75i.ws-us101.gitpod.io\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "8a01c6bc-2a53-49b3-accd-fe9eeb072828"
+                        "value": "33706c07-c8fd-4f06-b7a3-0d4684d80307"
                     }
                 ],
                 "lang": "en"

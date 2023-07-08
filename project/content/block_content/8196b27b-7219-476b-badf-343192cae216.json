@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/admin\/content\/block\/6?_format=hal_json"
+            "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/admin\/content\/block\/42?_format=hal_json"
         },
         "type": {
             "href": "https:\/\/8080-jessicayir8-proyectofin-v8w5xf3vt7o.ws-us101.gitpod.io\/rest\/type\/block_content\/basic"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 6
+            "value": 42
         }
     ],
     "uuid": [
         {
-            "value": "15fd153c-b51c-4baf-bfca-1e3da76fa36b"
+            "value": "8196b27b-7219-476b-badf-343192cae216"
         }
     ],
     "langcode": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-07-01T18:32:47+00:00",
+            "value": "2023-07-08T04:19:58+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,13 +42,13 @@
     ],
     "info": [
         {
-            "value": "n",
+            "value": "wr",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "2023-07-01T18:32:47+00:00",
+            "value": "2023-07-08T04:19:58+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
