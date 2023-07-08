@@ -1,4 +1,5 @@
 # A Drupal via DDEV template on Gitpod
+# Grupo 1 Jessica Gonzalez Alvarado, Scoth Chavarria Quiros, Angel Rodríguez Quesada, Andrey Fernández Ramírez 
 
 This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
