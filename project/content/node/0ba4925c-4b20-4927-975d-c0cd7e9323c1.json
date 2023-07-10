@@ -1,0 +1,257 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/gallery?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/node\/page"
+        },
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_home": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_footer": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ba4925c-4b20-4927-975d-c0cd7e9323c1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-07-10T18:34:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b4ac38-09b8-4171-b66f-caabbf79e8dc"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b4ac38-09b8-4171-b66f-caabbf79e8dc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_center": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctc"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "333135cc-2628-4609-b873-fa5e18d14b1b"
+                    }
+                ],
+                "target_revision_id": "35"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_gallery": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/cgallery"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6b002ef9-0209-44f3-b589-2c5278bf10fe"
+                    }
+                ],
+                "target_revision_id": "36"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_home": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/card_home"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e980fb05-7100-4c3e-b183-6cf21cf94708"
+                    }
+                ],
+                "target_revision_id": "37"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_card_text_left": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctf"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "aa770fa3-c473-47e8-9b6b-017cb07d3576"
+                    }
+                ],
+                "target_revision_id": "38"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/page\/field_footer": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/footer"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "244c3e5a-647c-4be7-b283-0bdc1eafaad7"
+                    }
+                ],
+                "target_revision_id": "39"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "GALLERY VIDEOS",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-10T18:11:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-10T18:34:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/gallery",
+            "pid": 7,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "01187c56-5d49-480d-8636-3526aa7df648"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/at-caecus-damnum-iustum-minim-natu."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

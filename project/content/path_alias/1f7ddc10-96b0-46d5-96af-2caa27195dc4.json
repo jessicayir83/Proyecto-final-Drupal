@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1f7ddc10-96b0-46d5-96af-2caa27195dc4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/4"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/caecus-lenis-persto-tation-vereor."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "36d1c36c-d7ba-41ed-afbc-11ba31fc4784"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/21"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/homepage"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/paragraph\/ctr"
+        }
+    },
+    "id": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "867228ea-c3c5-4e45-98f7-13e1d323d008"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "ctr"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-10T18:18:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "21"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_card_text_right"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Go to blogs"
+        }
+    ],
+    "field_link": [
+        {
+            "value": "GO TO BLOGS"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "BLOGS"
+        }
+    ]
+}
