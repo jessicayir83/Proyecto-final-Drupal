@@ -1,0 +1,245 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/node\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/node\/post"
+        },
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_category_post": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/brevitas-iaceo-jus-sed-tation-velit-ymo.?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_imagen": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/oppeto-paratus-sudo-torqueo.?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_keyword_post": [
+            {
+                "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/caecus-lenis-persto-tation-vereor.?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "adfce5d3-9bba-4081-ac39-925248c844ab"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-07-10T18:10:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "339956e9-4a08-4814-8b9b-50cd31b6e309"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "339956e9-4a08-4814-8b9b-50cd31b6e309"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_category_post": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/brevitas-iaceo-jus-sed-tation-velit-ymo.?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/taxonomy_term\/categoria_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f9469c0e-90f7-4c79-ab5b-cc43c055ef3a"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_imagen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/oppeto-paratus-sudo-torqueo.?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/media\/image_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b822eafc-795a-491e-8275-e3672eef0c3b"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/relation\/node\/post\/field_keyword_post": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/caecus-lenis-persto-tation-vereor.?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/taxonomy_term\/palabras_claves_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "66f59c16-0741-4d05-bc5d-80f215e2e74d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Eros Olim",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-04T02:11:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-10T18:10:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Huic in nostrud paratus praesent valde vulpes. Acsi duis olim pagus usitas. Hendrerit importunus loquor nobis sino. Abbas facilisi oppeto populus quia ratis tum veniam. Conventio duis incassum persto.\n\nAutem camur exputo gemino suscipit velit. Accumsan enim eros fere gemino inhibeo patria sed si zelus. Camur comis consectetuer dolore elit euismod nulla tum vulpes. Iustum laoreet premo proprius quadrum sit valde. Autem conventio fere nunc nutus plaga quis si.\n\nAliquam causa fere mauris olim quae sino. Dolor facilisis humo molior paulatim praemitto typicus utrum uxor wisi. Dolus ibidem interdico iriure jumentum persto. Augue distineo pagus refoveo saluto. Abico causa comis mauris odio. Aliquip augue blandit elit obruo saluto similis voco volutpat. Appellatio molior ymo.\n\nAbico huic iaceo olim paulatim qui ratis tation typicus virtus. Augue camur jus nunc sed sit tincidunt ulciscor valde ymo. Abigo cogo exputo gravis importunus oppeto quis rusticus saluto suscipit. Blandit damnum dolus eligo iaceo lobortis neque secundum tation usitas.\n\nDuis eros hendrerit tincidunt. Laoreet melior nibh. Commodo distineo exerci fere jus singularis ulciscor wisi. Capto consectetuer hendrerit iustum mauris populus probo refero.\n\nAd commoveo esca hendrerit iaceo sagaciter usitas. Caecus decet hendrerit huic jugis laoreet minim oppeto quibus saepius. Ad autem exputo qui sagaciter te vel vereor.\n\nAugue cui eum gilvus haero paulatim saepius vicis vulpes. Eros jumentum modo tum veniam. Causa ea lenis nutus quidem. Dignissim paulatim quia quidem suscipere ut. Aliquip consectetuer distineo haero interdico iusto premo. Aptent exputo meus nulla quidne similis.\n\nDecet esca importunus. Feugiat iustum natu neque tincidunt. Abico ille luctus ut. Commodo defui molior patria premo probo suscipit utinam. Dignissim euismod gemino haero iaceo meus occuro pertineo singularis sit. Capto illum laoreet meus. Caecus gravis melior meus nibh qui ymo. Caecus commodo pneum sino ulciscor ut uxor vero. Nostrud os pala rusticus valetudo velit. Duis odio os tego vel.\n\nCui loquor turpis. Distineo facilisis jus luctus ullamcorper valetudo. Ad cogo dignissim. Abigo dolore et hendrerit jus ludus odio proprius vindico. Abdo abigo abluo ad aptent defui plaga refoveo vicis vulpes. Conventio eligo ibidem magna tincidunt. Capto iusto nobis refero saluto.\n\nAugue haero letalis molior pala populus sino te vicis. Lucidus luctus metuo nostrud utinam. Amet defui esse populus praemitto quibus quis secundum sit. Euismod ille saluto tum. Acsi defui feugiat loquor ludus persto ullamcorper. Pecus probo ullamcorper validus. Abdo abico aliquip cui ideo proprius volutpat. Abluo aliquam conventio cui ludus neo praesent quis. Duis ille lenis ludus.\n\nErat iaceo illum laoreet magna neo nisl wisi. Aliquip distineo paulatim uxor verto wisi. Abico brevitas eum olim saluto. Genitus ibidem immitto odio os paratus si sudo vero. Accumsan aliquam causa consequat damnum luptatum quadrum validus vero.\n\nCui facilisis occuro pala probo. Immitto paulatim populus quae sagaciter tincidunt utrum uxor. Brevitas esca facilisi ille metuo singularis. Haero iusto neo nutus. Conventio iustum patria utrum vereor. Duis et exputo facilisi hendrerit lenis ratis validus verto wisi. Genitus nimis olim refoveo turpis.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Huic in nostrud paratus praesent valde vulpes. Acsi duis olim pagus usitas. Hendrerit importunus loquor nobis sino. Abbas facilisi oppeto populus quia ratis tum veniam. Conventio duis incassum persto.<\/p>\n<p>Autem camur exputo gemino suscipit velit. Accumsan enim eros fere gemino inhibeo patria sed si zelus. Camur comis consectetuer dolore elit euismod nulla tum vulpes. Iustum laoreet premo proprius quadrum sit valde. Autem conventio fere nunc nutus plaga quis si.<\/p>\n<p>Aliquam causa fere mauris olim quae sino. Dolor facilisis humo molior paulatim praemitto typicus utrum uxor wisi. Dolus ibidem interdico iriure jumentum persto. Augue distineo pagus refoveo saluto. Abico causa comis mauris odio. Aliquip augue blandit elit obruo saluto similis voco volutpat. Appellatio molior ymo.<\/p>\n<p>Abico huic iaceo olim paulatim qui ratis tation typicus virtus. Augue camur jus nunc sed sit tincidunt ulciscor valde ymo. Abigo cogo exputo gravis importunus oppeto quis rusticus saluto suscipit. Blandit damnum dolus eligo iaceo lobortis neque secundum tation usitas.<\/p>\n<p>Duis eros hendrerit tincidunt. Laoreet melior nibh. Commodo distineo exerci fere jus singularis ulciscor wisi. Capto consectetuer hendrerit iustum mauris populus probo refero.<\/p>\n<p>Ad commoveo esca hendrerit iaceo sagaciter usitas. Caecus decet hendrerit huic jugis laoreet minim oppeto quibus saepius. Ad autem exputo qui sagaciter te vel vereor.<\/p>\n<p>Augue cui eum gilvus haero paulatim saepius vicis vulpes. Eros jumentum modo tum veniam. Causa ea lenis nutus quidem. Dignissim paulatim quia quidem suscipere ut. Aliquip consectetuer distineo haero interdico iusto premo. Aptent exputo meus nulla quidne similis.<\/p>\n<p>Decet esca importunus. Feugiat iustum natu neque tincidunt. Abico ille luctus ut. Commodo defui molior patria premo probo suscipit utinam. Dignissim euismod gemino haero iaceo meus occuro pertineo singularis sit. Capto illum laoreet meus. Caecus gravis melior meus nibh qui ymo. Caecus commodo pneum sino ulciscor ut uxor vero. Nostrud os pala rusticus valetudo velit. Duis odio os tego vel.<\/p>\n<p>Cui loquor turpis. Distineo facilisis jus luctus ullamcorper valetudo. Ad cogo dignissim. Abigo dolore et hendrerit jus ludus odio proprius vindico. Abdo abigo abluo ad aptent defui plaga refoveo vicis vulpes. Conventio eligo ibidem magna tincidunt. Capto iusto nobis refero saluto.<\/p>\n<p>Augue haero letalis molior pala populus sino te vicis. Lucidus luctus metuo nostrud utinam. Amet defui esse populus praemitto quibus quis secundum sit. Euismod ille saluto tum. Acsi defui feugiat loquor ludus persto ullamcorper. Pecus probo ullamcorper validus. Abdo abico aliquip cui ideo proprius volutpat. Abluo aliquam conventio cui ludus neo praesent quis. Duis ille lenis ludus.<\/p>\n<p>Erat iaceo illum laoreet magna neo nisl wisi. Aliquip distineo paulatim uxor verto wisi. Abico brevitas eum olim saluto. Genitus ibidem immitto odio os paratus si sudo vero. Accumsan aliquam causa consequat damnum luptatum quadrum validus vero.<\/p>\n<p>Cui facilisis occuro pala probo. Immitto paulatim populus quae sagaciter tincidunt utrum uxor. Brevitas esca facilisi ille metuo singularis. Haero iusto neo nutus. Conventio iustum patria utrum vereor. Duis et exputo facilisi hendrerit lenis ratis validus verto wisi. Genitus nimis olim refoveo turpis.<\/p>\n",
+            "summary": "Huic in nostrud paratus praesent valde vulpes. Acsi duis olim pagus usitas. Hendrerit importunus loquor nobis sino. Abbas facilisi oppeto populus quia ratis tum veniam. Conventio duis incassum persto.\n\nAutem camur exputo gemino suscipit velit. Accumsan enim eros fere gemino inhibeo patria sed si zelus. Camur comis consectetuer dolore elit euismod nulla tum vulpes. Iustum laoreet premo proprius quadrum sit valde. Autem conventio fere nunc nutus plaga quis si.\n\nAliquam causa fere mauris olim quae sino. Dolor facilisis humo molior paulatim praemitto typicus utrum uxor wisi. Dolus ibidem interdico iriure jumentum persto. Augue distineo pagus refoveo saluto. Abico causa comis mauris odio. Aliquip augue blandit elit obruo saluto similis voco volutpat. Appellatio molior ymo.\n\nAbico huic iaceo olim paulatim qui ratis tation typicus virtus. Augue camur jus nunc sed sit tincidunt ulciscor valde ymo. Abigo cogo exputo gravis importunus oppeto quis rusticus saluto suscipit. Blandit damnum dolus eligo iaceo lobortis neque secundum tation usitas.\n\nDuis eros hendrerit tincidunt. Laoreet melior nibh. Commodo distineo exerci fere jus singularis ulciscor wisi. Capto consectetuer hendrerit iustum mauris populus probo refero.\n\nAd commoveo esca hendrerit iaceo sagaciter usitas. Caecus decet hendrerit huic jugis laoreet minim oppeto quibus saepius. Ad autem exputo qui sagaciter te vel vereor.\n\nAugue cui eum gilvus haero paulatim saepius vicis vulpes. Eros jumentum modo tum veniam. Causa ea lenis nutus quidem. Dignissim paulatim quia quidem suscipere ut. Aliquip consectetuer distineo haero interdico iusto premo. Aptent exputo meus nulla quidne similis.\n\nDecet esca importunus. Feugiat iustum natu neque tincidunt. Abico ille luctus ut. Commodo defui molior patria premo probo suscipit utinam. Dignissim euismod gemino haero iaceo meus occuro pertineo singularis sit. Capto illum laoreet meus. Caecus gravis melior meus nibh qui ymo. Caecus commodo pneum sino ulciscor ut uxor vero. Nostrud os pala rusticus valetudo velit. Duis odio os tego vel.\n\nCui loquor turpis. Distineo facilisis jus luctus ullamcorper valetudo. Ad cogo dignissim. Abigo dolore et hendrerit jus ludus odio proprius vindico. Abdo abigo abluo ad aptent defui plaga refoveo vicis vulpes. Conventio eligo ibidem magna tincidunt. Capto iusto nobis refero saluto.\n\nAugue haero letalis molior pala populus sino te vicis. Lucidus luctus metuo nostrud utinam. Amet defui esse populus praemitto quibus quis secundum sit. Euismod ille saluto tum. Acsi defui feugiat loquor ludus persto ullamcorper. Pecus probo ullamcorper validus. Abdo abico aliquip cui ideo proprius volutpat. Abluo aliquam conventio cui ludus neo praesent quis. Duis ille lenis ludus.\n\nErat iaceo illum laoreet magna neo nisl wisi. Aliquip distineo paulatim uxor verto wisi. Abico brevitas eum olim saluto. Genitus ibidem immitto odio os paratus si sudo vero. Accumsan aliquam causa consequat damnum luptatum quadrum validus vero.\n\nCui facilisis occuro pala probo. Immitto paulatim populus quae sagaciter tincidunt utrum uxor. Brevitas esca facilisi ille metuo singularis. Haero iusto neo nutus. Conventio iustum patria utrum vereor. Duis et exputo facilisi hendrerit lenis ratis validus verto wisi. Genitus nimis olim refoveo turpis.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 1689012636,
+            "last_comment_name": null,
+            "last_comment_uid": 0,
+            "comment_count": 0
+        }
+    ],
+    "field_related_links": [
+        {
+            "uri": "http:\/\/www.jetruprat.gov",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.cesheuaswe.com",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Augue commoveo"
+        }
+    ]
+}

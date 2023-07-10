@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-jessicayir8-proyectofin-u4mp95r6z1m.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "dd992962-2e51-44b9-8526-f81f6e60038c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "zxx"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/accumsan-eum-illum-in-iusto-iustum-mos-neo-nisl-typicus."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

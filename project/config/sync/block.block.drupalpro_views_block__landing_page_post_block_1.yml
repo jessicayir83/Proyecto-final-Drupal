@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/post*\r\n/homepage*\r\n/node/23*"
+    pages: "/post*\r\n/homepage*\r\n"
